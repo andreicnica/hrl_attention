@@ -1,0 +1,6 @@
+torch>=1.0.0
+numpy>=1.3
+git+git://github.com/tudor-berariu/liftoff.git#egg=liftoff
+wandb
+bokeh
+opencv-python

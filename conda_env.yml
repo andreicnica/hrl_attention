@@ -1,0 +1,31 @@
+name: affenv
+channels:
+  - conda-forge
+  - ioam
+  - soumith
+dependencies:
+  - python=3.6
+  - numpy
+  - mkl
+  - holoviews
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - cudatoolkit
+  - pip:
+    - termcolor
+    - tqdm
+    - pillow
+    - packaging
+    - appdirs
+    - holoviews
+    - gpustat
+    - sklearn
+    - wandb
+    - bokeh
+    - opencv-python
+    - matplotlib
+    - git+git://github.com/tudor-berariu/liftoff.git#egg=liftoff
